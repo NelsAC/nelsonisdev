@@ -1,7 +1,6 @@
 import { JavaScript } from '../assets/Icons/JavaScript';
 import { Pug } from '../assets/Icons/Pug';
 import { Css } from '../assets/Icons/Css';
-import { Express } from '../assets/Icons/Express';
 
 
 export const projects = [
