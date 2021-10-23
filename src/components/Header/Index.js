@@ -1,4 +1,5 @@
 import { Navigation } from '../Navigation/Index';
+import { ButtonDarkMode } from '../ButtonDarkMode/Index';
 
 import Logo from '../../assets/img/Logo';
 
@@ -15,9 +16,7 @@ export const Header = () => {
             <Wrapper>
                 <Logo className="logo" />
                 <Navigation />
-                <Button>
-                    DarkMode
-                </Button>
+                <ButtonDarkMode />
             </Wrapper>
         </Container>
     )
