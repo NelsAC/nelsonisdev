@@ -1,28 +1,23 @@
 import {
     Container,
-    Card,
-    Title,
-    Content,
-    Link
-} from './project.styles';
+    Item,
+    Image,
+    Anchor
+} from './project.styles';  
+
+import { projects } from '../../fixtures/projects';
 
 import { GitHub } from '../../assets/Icons/GitHub';
-
-import { projects } from '../../fixtures/projects'
-import { ProjectTech } from '../ProjectTech/Index';
 
 export const Project = () => {
     return (
         <Container>
             {
-                projects.map(({title, href, img, tech}) => (
-                    <Card theme={{img}} key={title}>
-                        <Content>
-                            <Title>{title}</Title>
-                            <ProjectTech tech={tech} />
-                        </Content>
-                        <Link target="_blank" href={href}><GitHub /></Link>
-                    </Card>
+                projects.map(({ title, href, img }) => (
+                    <Item key={title} title={{title}}>
+                        <Image src={img} />
+                        <Anchor href={href} ><GitHub width="2rem" fill="#000" /></Anchor>
+                    </Item> 
                 ))
             }
         </Container>
