@@ -6,8 +6,7 @@ import Logo from '../../assets/img/Logo';
 // Styles
 import {
     Container,
-    Wrapper,
-    Button
+    Wrapper
 } from './header.styles';
 
 export const Header = () => {
