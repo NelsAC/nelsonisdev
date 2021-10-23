@@ -1,8 +1,3 @@
-import { JavaScript } from '../assets/Icons/JavaScript';
-import { Pug } from '../assets/Icons/Pug';
-import { Css } from '../assets/Icons/Css';
-
-
 export const projects = [
     {
       title: "Agencia App",
