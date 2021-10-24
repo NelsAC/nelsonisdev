@@ -1,13 +1,19 @@
 export function Menu(props) {
-    return (
-      <svg
-        width="1em"
-        height="1em"
-        viewBox="0 0 48 1"
-        xmlns="http://www.w3.org/2000/svg"
-        {...props}
-      >
-        <path d="M0 0h48v1H0z" fill="#063855" fillRule="evenodd" />
-      </svg>
-    )
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="prefix__h-6 prefix__w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      {...props}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M4 6h16M4 12h16m-7 6h7"
+      />
+    </svg>
+  )
   }
