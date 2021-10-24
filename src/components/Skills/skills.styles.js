@@ -12,11 +12,14 @@ export const Container = styled.section`
 `;
 
 export const Wrapper = styled.div`
+    width: 80%;
+    margin: 0 auto;
     justify-content: center;
     display: flex;
     gap: 5rem;
 
     @media(max-width: ${breakpoints.sm}) {
+        width: 95%;
         flex-direction: column;
         gap: 2rem;
     }
