@@ -5,7 +5,7 @@ import {
 
 export const Circle = () => {
     return (
-        <Ul>
+        <Ul className="circle">
             <Li></Li>
             <Li></Li>
             <Li></Li>

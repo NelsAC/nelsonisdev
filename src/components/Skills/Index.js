@@ -7,12 +7,12 @@ import {
     Span
 } from './skills.styles';
 
-export const Skills = () => {
+export const Skills = ({ mode }) => {
     return (
-        <Container id="skills">
+        <Container id="skills" className={ mode && 'dark' }>
             <Wrapper>
                 <Title>My <Span>Skills</Span></Title>
-                <Technologies />
+                <Technologies mode={mode} />
             </Wrapper>
         </Container>
     )

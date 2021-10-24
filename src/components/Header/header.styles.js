@@ -22,6 +22,9 @@ export const Wrapper = styled.div`
     align-items: center;
 `;
 
+export const Anchor = styled.a`
+`;
+
 export const Amborguesa = styled.button`
     display: none;
     border: none;

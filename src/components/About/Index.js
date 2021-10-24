@@ -8,9 +8,9 @@ import {
     Span
 } from './about.styles';
 
-export const About = () => {
+export const About = ({ mode }) => {
     return (
-        <Container id="about">
+        <Container id="about" className={ mode && 'dark' }>
             <Wrapper>
                 <Title>About <Span>Me</Span></Title>
                 <Content>

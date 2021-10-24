@@ -5,9 +5,9 @@ import {
 import { technologies } from '../../fixtures/technologies';
 import { Technology } from '../Technology/Index';
 
-export const Technologies = () => {
+export const Technologies = ({ mode }) => {
     return (
-        <Container>
+        <Container className={ mode && 'dark tech'}>
             {
                 technologies.map(tech => (
                     <Technology {...tech} key={tech.title}/>

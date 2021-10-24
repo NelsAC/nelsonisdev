@@ -12,9 +12,9 @@ import {
     Subtitle
 } from './hero.styles';
 
-export const Hero = () => {
+export const Hero = ({ mode }) => {
     return (
-        <Container>
+        <Container id="home" className={ mode && 'dark' }>
             <Wrapper>
                 <Image src={heroImg} alt="imagen de Nelson" />
                 <Content>

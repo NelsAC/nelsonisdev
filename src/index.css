@@ -23,6 +23,8 @@ code {
     monospace;
 }
 
+
+/* menu */
 @media(max-width: 640px) {
   #nav.active {
     display: flex;
@@ -43,3 +45,76 @@ code {
   }  
 }
 
+
+/* dark mode */
+
+/* header */
+header.dark {
+  background-color: #1f1f1f;
+}
+
+header.dark a{ 
+  color: #fff;
+}
+
+#menu.dark{
+  color: #fff;
+}
+
+/* hero */
+section.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+section.dark h1{
+  background: linear-gradient(to right,#fff 0%,#1069a0 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+section.dark .circle li {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+/* about */
+#about.dark::before, #about.dark::after {
+  background-color: #121212;
+}
+
+/* skills */
+#skills.dark {
+  background-color: #121212;
+}
+
+#skills.dark h2 {
+  color: #000;
+    text-shadow: 1px 0 0 #fff, 0px 0px 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+#skills.dark h2::before {
+  color: rgba(255,255,255,.1);
+}
+
+#skills.dark h2 > span {
+  color: #fff;
+}
+
+/* technology */
+
+.dark.tech {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+.dark.tech h4{
+  color: #fff;
+}
+
+/* footer */
+
+footer.dark{
+  background-color: #121212;
+}

@@ -15,11 +15,11 @@ function Portfolio() {
   return (
     <>
     <Header mode={darkMode} setMode={setDarkMode} />
-    <Hero />
-    <About />
-    <Skills />
-    <Projects />
-    <Footer />
+    <Hero mode={darkMode} />
+    <About mode={darkMode} />
+    <Skills mode={darkMode} />
+    <Projects mode={darkMode} />
+    <Footer mode={darkMode} />
     </>
   );
 }
