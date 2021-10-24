@@ -17,7 +17,7 @@ export const ButtonDarkMode = () => {
             <Label htmlFor="xd">
                 <Icon><Sun /></Icon>
                 <Icon><Moon /></Icon>
-                <Ball  />
+                <Ball />
             </Label>
         </Container>
     )
