@@ -4,11 +4,11 @@ export const Container = styled.div`
     width: 7.5rem;
     height: 9.5rem;
     padding: 1rem;
-    border-radius: 3px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     transition: .3s ease;
+    margin: 0 auto;
 
     &:hover{
         transform: scale(1.05);

@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { breakpoints } from '../../fixtures/theme';
+
 export const Container = styled.section`
     height: 60vh;
     width: 100%;
@@ -7,15 +9,23 @@ export const Container = styled.section`
     padding: max(5vh, 2rem) 0;
     min-height: 150px;
     background-color: #fff;
+
+    @media(max-width: ${breakpoints.sm}) {
+        height: 80vh;
+    }
 `;
 
 export const Wrapper = styled.div`
-    width: 50rem;
     height: 100%;
-    margin: 0 auto;
+    justify-content: center;
     display: flex;
     gap: 6rem;
     align-items: center;
+
+    @media(max-width: ${breakpoints.sm}) {
+        flex-direction: column;
+        gap: 2rem;
+    }
 `;
 
 export const Image = styled.img`
@@ -25,14 +35,22 @@ export const Image = styled.img`
     border-bottom: 10px solid #1069a0;
     border-right: 10px solid #1069a0;
     border-radius: 100%;
+
+    @media(max-width: ${breakpoints.sm}) {
+        width: 10rem;
+    }
 `;
 
 export const Content = styled.div`
     z-index: 1;
+    
+    @media(max-width: ${breakpoints.sm}) {
+        text-align: center;
+    }
 `;
 
 export const Title = styled.h1`
-    font-size: 3.5rem;
+    font-size: min( calc( 1rem + 5vw ), 3.5rem );
     margin: 0;
     background: linear-gradient(to right, #000 0%, #1069a0 100%);
     color: transparent;

@@ -1,9 +1,15 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
+
+import { breakpoints } from '../../fixtures/theme';
 
 export const Container = styled.section`
     width: 100%;
     background: linear-gradient(to left, #00395e 100%, #1069a0 0%);
     padding: 4rem 0;
+
+    @media(max-width: ${breakpoints.sm}) {
+        padding: 3rem 0;
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -11,13 +17,17 @@ export const Wrapper = styled.div`
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+
+    @media(max-width: ${breakpoints.sm}) {
+        width: 95%; 
+    }
 `;
 
 export const Title = styled.h2`
     color: #1069a0;
     text-shadow: 1px 0 0 #fff, 0px 0px 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;   
     width: 100%;
-    font-size: 3.8rem;
+    font-size: min( calc( 1.5rem + 5vw ), 3.8rem );
     text-align: center;
     position: relative;
 
