@@ -1,8 +1,9 @@
-import { About } from './components/About/Index';
 import { Header } from './components/Header/Index';
 import { Hero } from './components/Hero/Index';
-import { Projects } from './components/Projects/Index';
+import { About } from './components/About/Index';
 import { Skills } from './components/Skills/Index';
+import { Projects } from './components/Projects/Index';
+import { Footer } from './components/Footer/Index';
 
 function Portfolio() {
   return (
@@ -12,6 +13,7 @@ function Portfolio() {
     <About />
     <Skills />
     <Projects />
+    <Footer />
     </>
   );
 }
