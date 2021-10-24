@@ -23,6 +23,20 @@ code {
     monospace;
 }
 
-.logo {
-  width: 60px;
+#nav.active {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 4.4rem;
+  background-color: #000;
+  border-radius: 3px;
+  padding: .5rem 1rem .5rem 2rem;
+  text-align: right;
+}
+
+#nav.active a{
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  padding: .3rem 0;
 }
