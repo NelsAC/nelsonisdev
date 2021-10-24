@@ -1,58 +1,29 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    
-`;
 export const Ball = styled.div`
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    border-radius: 50%;
-    transform: translate(-62%,14%);
+    width: 1.4rem;
+    height: 1.4rem;
+    top: 3.9px;
     background: #fff;
-    transition: transform 0.2s linear;
+    position: absolute;
+    border-radius: 100%;
+    transition: .2s linear;
 `;
 
-export const Label = styled.label`
+export const Button = styled.button`
     background: #000;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 2rem;
+    align-items: center;
     display: flex;
-    justify-content: space-around;
-    width: 5rem;
-    height: 2.5rem;
-    border-radius: 50px;
+    justify-content: space-between;
     position: relative;
 `;
 
 export const Icon = styled.i`
+    width: 1.2rem;
     z-index: 1;
-    width: 25px;
-    height: 40px;
-    display: flex;
-    align-items: center;
     transition: .2s linear;
-
-    &:nth-child(1) {
-        color: #FBBF24;
-    }
-    
-    &:nth-child(2) {
-        color: #727272;
-    }
-`;
-
-export const CheckBox = styled.input`
-    position: absolute;
-    opacity: 0;
-
-    &:checked + ${Label} ${Ball} {
-        transform: translate(60%,14%);
-    }
-
-    &:checked + ${Label} ${Icon}:nth-child(1) {
-        color: #727272;
-    }
-    
-    &:checked + ${Label} ${Icon}:nth-child(2) {
-        color: #0d419d;
-    }
 `;
