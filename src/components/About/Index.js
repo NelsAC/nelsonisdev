@@ -14,8 +14,8 @@ export const About = () => {
             <Wrapper>
                 <Title>About <Span>Me</Span></Title>
                 <Content>
-                    <Subtitle>Hi there, I'm Nelson</Subtitle>
-                    <Paragraph>I am passionate about web technologies, mainly because of React. I love JavaScript. One of my greatest motivations is to learn. I started programming since I was in school learning from YouTube videos and online education platforms like Platzi and Udemy.</Paragraph>
+                    <Subtitle>Hola mundo, me llamo Nelson</Subtitle>
+                    <Paragraph>Me apasionan las tecnologías web, principalmente por JavaScript. Una de mis mayores motivaciones es aprender. Actualmente estoy tomando cursos en plataformas de educación como Youtube, Platzi y Udemy.</Paragraph>
                 </Content>
             </Wrapper>
         </Container>
