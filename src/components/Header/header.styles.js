@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+import { breakpoints} from '../../fixtures/theme';
+
 export const Container = styled.header`
     width: 100%;
     background-color: rgba(255,255,255,.6);
@@ -18,4 +20,14 @@ export const Wrapper = styled.div`
     padding: max(.5rem, 2vh) 1.2rem;
     justify-content: space-between;
     align-items: center;
+`;
+
+export const Amborguesa = styled.button`
+    display: none;
+    border: none;
+    background: transparent;
+
+    @media(max-width: ${breakpoints.sm}) {
+        display: block;
+    }
 `;

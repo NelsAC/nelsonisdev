@@ -1,9 +1,9 @@
-
 // Styles
 import {
     Nav,
-    Anchor  
+    Anchor
 } from './navigation.styles';
+
 
 // Fixtures
 import {
@@ -12,7 +12,7 @@ import {
 
 export const Navigation = () => {
     return (
-        <Nav>
+        <Nav id="nav">
             {
                 navigation.map(({ href, title }) => (
                     <Anchor href={href} key={title}>
