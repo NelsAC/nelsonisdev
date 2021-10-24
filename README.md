@@ -1,6 +1,6 @@
-### Hello, I'm Nelson - [nelvsdev][website] 👋
+### Hello, I'm Nelson - [nelsonis][website] 👋
 
-[![Website](https://img.shields.io/website?label=nelvs.com&url=https://www.google.com)](https://google.com)
+[![Website](https://img.shields.io/website?label=https://hardcore-newton-e78550.netlify.app/&url=https://hardcore-newton-e78550.netlify.app/)](https://hardcore-newton-e78550.netlify.app/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Nelvsdev?color=1DA1F2&logo=twitter)](https://twitter.com/intent/follow?original_referer=https://github.com%2Fnelvsdev&screen_name=Nelvsdev)
 
 <br />
@@ -33,6 +33,6 @@
 <br />
 <br />
 
-[website]: https://google.com
-[twitter]: https://twitter.com/Nelvsdev
+[website]: https://hardcore-newton-e78550.netlify.app
+[twitter]: https://twitter.com/nelsonisdev
 [linkedin]: https://linkedin.com/in/nelsonalarconcahuana
