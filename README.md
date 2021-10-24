@@ -1,7 +1,7 @@
 ### Hello, I'm Nelson - [nelsonis][website] 👋
 
-[![Website](https://img.shields.io/website?label=https://hardcore-newton-e78550.netlify.app/&url=https://hardcore-newton-e78550.netlify.app/)](https://hardcore-newton-e78550.netlify.app/)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Nelvsdev?color=1DA1F2&logo=twitter)](https://twitter.com/intent/follow?original_referer=https://github.com%2Fnelvsdev&screen_name=Nelvsdev)
+[![Website](https://img.shields.io/website?label=nelsonisdev/&url=https://hardcore-newton-e78550.netlify.app/)](https://hardcore-newton-e78550.netlify.app/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/nelsonisdev?color=1DA1F2&logo=twitter)](https://twitter.com/intent/follow?original_referer=https://github.com%nelsonisdev&screen_name=nelsonisdev)
 
 <br />
 
