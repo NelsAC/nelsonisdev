@@ -1,7 +1,7 @@
 import { Circle } from '../Circle/Index';  
 import { Socials } from '../Socials/Index';
 
-import heroImg from '../../assets/img/heroImg.jpg';  
+import heroImg from '../../assets/img/heroImg.jfif';  
 
 import { 
     Container,
